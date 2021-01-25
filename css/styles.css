@@ -24,7 +24,7 @@ a {
 }
 img {
   height: 100%;
-  width: 100px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -149,8 +149,6 @@ p {
   margin: 0 auto;
   padding: 100px 0;
 }
-
-
 
 #services .service-top p {
   color: black;
@@ -363,7 +361,6 @@ p {
   transform: scale(2.1);
 }
 /* -------------------End Project Section----------------------------------------------- */
-
 
 /* -------------------------Keyframes--------------------------- */
 @keyframes text_reveal_box {
