@@ -37,6 +37,20 @@ p {
   letter-spacing: 0.05rem;
 }
 
+.section-title {
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.section-title span {
+  color: crimson;
+}
+
 /* ---------------------Hero Section---------------------------- */
 #hero {
   background-image: url(/portFolio/images/hero-bg.png);
@@ -136,19 +150,7 @@ p {
   padding: 100px 0;
 }
 
-#services .section-title {
-  font-size: 4rem;
-  font-weight: 300;
-  color: black;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  text-align: center;
-}
 
-#services .section-title span {
-  color: crimson;
-}
 
 #services .service-top p {
   color: black;
@@ -214,6 +216,15 @@ p {
 }
 
 /* ---------------------End service Section------------------------------- */
+
+/* --------------------------------------project Section---------------------------------- */
+#projects .projects {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+/* --------------------------------------project Section---------------------------------- */
 
 
 /* -------------------------Keyframes--------------------------- */
