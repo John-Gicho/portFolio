@@ -350,6 +350,7 @@ p {
 #projects .project-img {
   flex-basis: 50%;
   height: 300px;
+  width:80%;
   overflow: hidden;
   position: relative;
 }
